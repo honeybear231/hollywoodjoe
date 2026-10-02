@@ -1,40 +1,459 @@
 <html>
-
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
-<meta name="ProgId" content="FrontPage.Editor.Document">
-<title>Welcome to Hollywood Joe's Official Site</title>
-<meta name="Microsoft Theme" content="clearday 011">
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-</head><br><br>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+    <meta name="ProgId" content="FrontPage.Editor.Document">
+    <title>Welcome to HOLLYWOOD JOE</title>
+    <meta name="description" content="Our main page can be found at http://www.rockabilly.nl - BlackCat Rockabilly Europe, The Most in Rock and Roll, Rockabilly and Surf, Huge Lyrics Collection, Hall Of Fame, Many Biographies and Reviews">
+    <meta name="keywords" content="rockabilly, blackcat, rock and roll, surf, 45 rpm, 78 rpm, ami, bebop, black cat, blackcat, bopping, capitol, cats, chatroom, chatnoir, coral, country-rock, crepes, dance, decca, doghouse, doo-wop, drapes, edwardian, elvis presley, fifties, garage, gatonegro, hall of fame, handjive, infolist, instrumental, buick,cadillac,chevy,olds,pontiac,car,drag,vampire,string,cds,mp3s,downloads,mp3.com,cd,mp3,sound,reel,riff,feel,tape,record,stomp,ballads,song,hillbilly,amp,amplifier,vox,fender,gibson,guild,goya,ampeg,gretsch,rickenbacker,favilla,favino,maccaferri,hagstrom,mosrite,acoustic,speaker,dial,knob,magnet,tune,composition,nania,joe,hollywood,boulevard,liverpool.tupelo,mississippi,new,york,england,noun,action,move,tal,farlow,jazz,swing,groove,track,cool,strum,icon,idol,dexterity,pick,pickguard,peghead,studio,monitor,meta,tag,django,reinhardt,barney,kessel,buddy,holly,gene,vincent,chuck,berry,graceland,south,dixie,mason,dixon,burger,bun,drive-in,movie,tour,mid-west,progression,chord,lead,solo,drum,beat,drumstick,rim,rimshot,band,orchestra,tennessee,kentucky,louisiana,texas,florida,arkansas,ohio,texas,wyoming,arizona,california,washington,oregon,idaho,maryland,f-hole,houston,lubbock,tulsa,nashville,clifton,passaic,patterson,nyack,nanuet,wisconsin,michigan,pennsylvania,vermont,maine,virginia,mom,dad,sister,brother,blues,country,city,billboard,cashbox,topten,stadium,shea,yankee,arpeggio,scale,triad,triplet,staff,mode,locrian,phyrigian,aolean, irc-room, jitterbug, jukebox, kittens, liberty, lyrics, lyrix, mailinglist, memorabilia, memphis, mirc, movies, mp3, neo-rockabilly, newsletter, oldies, psychobilly, rebel, record labels, reviews, rock-a-billy, rock-ola, rockabillies, rockers, rocking, seeburg, shake, single, sixties, sun records, surfing, surfrock, teddy boys, teds, teenage idols, twist, video, vinyl, webrings, western swing, wurlitzer">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 month">
+    <script language="JavaScript">
+    //
+    function FP_preloadImgs() {
+        //v1.0
+        var d = document,
+            a = arguments;
+        if (!d.FP_imgs)
+            d.FP_imgs = new Array();
+        for (var i = 0; i < a.length; i++) {
+            d.FP_imgs[i] = new Image;
+            d.FP_imgs[i].src = a[i];
+        }
+    }
 
-<body background="clouds.gif" bgcolor="#FFFFFF" text="#000000" link="#0033CC" vlink="#6699FF" alink="#00CC33"><!--mstheme--><font face="Verdana, Arial, Helvetica"><br>
-<p align="center"><img src="HOLLYWOODJOELOGO.jpg" alt="Hollywood Joe Logo"></p><br><br><center>This is Current!</center>
-	<br><br><table align="left">
-  <tbody>
-    <tr>
-      <td align="middle"><font face="Verdana, Arial, Helvetica">
-        <p><img border="0" src="TRIALCOL.JPG" width="201" height="238" alt="Vampire Joe"><br>
-        <br>
-        <a href="swinginwithhollywoodjoe.htm"><img border="0" src="sm-28773.jpg" alt="Leather Joe" width="200" height="200"></a><br>
-        <br>
-        <a href="swinginwithhollywoodjoe.htm"><img border="0" src="sm-28774.jpg" alt="Nyack Joe" width="200" height="200"></a><br>
-        <br>
-        <a href="swinginwithhollywoodjoe.htm"><img border="0" src="sm-28775.jpg" alt="Gigging Joe" width="200" height="200"></a><!--mstheme--></font></td>
-    </tr>
-  </tbody>
-</table><font face="Verdana, Arial, Helvetica"><p align="center"><font color="#000000" face="Arial,Helvetica" size="-1">Hollywood
-Joe is a singer/guitarist who has been very influenced by the late, great Gypsy
-guitarist Django Reinhardt amongst other phenomenal artists. The sound of
-Hollywood Joe is timeless and entertaining, and is full of good old Rock n' Roll
-as well as inspiring musicianship. He has lived in Memphis, St. Louis, as well
-as of course...Hollywood, California. And in his travels has picked up many,
-many influences. At present we don't know of his whereabouts, but was recently
-heard and seen playing in various groups and combos in the Rockabilly/Swing,
-Blues, and Jazz traditions. Anyone interested in hearing his sound, or
-purchasing the many of his CDs.<br>
-<br>
+    function FP_swapImg() {
+        //v1.0
+        var doc = document,
+            args = arguments,
+            elm,
+            n;
+        doc.$imgSwaps = new Array();
+        for (n = 2; n < args.length;
+        n += 2) {
+            elm = FP_getObjectByID(args[n]);
+            if (elm) {
+                doc.$imgSwaps[doc.$imgSwaps.length] = elm;
+                elm.$src = elm.src;
+                elm.src = args[n + 1];
+            }
+        }
+    }
+
+    function FP_getObjectByID(id, o) {
+        //v1.0
+        var c,
+            el,
+            els,
+            f,
+            m,
+            n;
+        if (!o)
+            o = document;
+        if (o.getElementById)
+            el = o.getElementById(id);
+        else if (o.layers)
+            c = o.layers;
+        else if (o.all)
+            el = o.all[id];
+        if (el)
+            return el;
+        if (o.id == id || o.name == id)
+            return o;
+        if (o.childNodes)
+            c = o.childNodes;
+        if (c)
+            for (n = 0; n < c.length; n++) {
+                el = FP_getObjectByID(id, c[n]);
+                if (el)
+                    return el;
+            }
+        f = o.forms;
+        if (f)
+            for (n = 0; n < f.length; n++) {
+                els = f[n].elements;
+                for (m = 0; m < els.length; m++) {
+                    el = FP_getObjectByID(id, els[n]);
+                    if (el)
+                        return el;
+                }
+            }
+        return null;
+    }
+    // -->
+    </script>
+</head>
+
+<body background="Welcome%20to%20HOLLYWOOD%20JOE_files/clouds.gif" bgcolor="#FFFFFF" text="#000000" link="#0033CC" vlink="#6699FF" alink="#00CC33">
+
+    <p align="center">
+        <img src="Welcome%20to%20HOLLYWOOD%20JOE_files/HOLLLYWOODJOE.jpg" width="539" height="73">
+    </p>
+    <div align="center">
+        <table border="0" width="56%">
+            <tbody>
+                <tr>
+                    <td>
+                        <font face="Verdana, Arial, Helvetica">
+                            <table width="53%" border="3">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="70" height="20" align="middle">
+                                                <param name="movie" value="text11.swf">
+                                                <param name="quality" value="high">
+                                                <param name="BASE" value="./">
+                                                <param name="BGCOLOR" value="">
+                                                <param name="SCALE" value="exactfit">
+                                                <embed src="Welcome%20to%20HOLLYWOOD%20JOE_files/text11.swf" base="./" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="exactfit" width="70" height="20" bgcolor="" align="middle">
+
+                                            </object>
+                                        </td>
+                                        <td>
+                                            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="97" height="18" align="middle">
+                                                <param name="movie" value="text15.swf">
+                                                <param name="quality" value="high">
+                                                <param name="BASE" value="./">
+                                                <param name="BGCOLOR" value="">
+                                                <param name="SCALE" value="exactfit">
+                                                <embed src="Welcome%20to%20HOLLYWOOD%20JOE_files/text15.swf" base="./" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="exactfit" width="97" height="18" bgcolor="" align="middle">
+
+                                            </object>
+                                        </td>
+                                        <td>
+                                            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="87" height="19" align="middle">
+                                                <param name="BASE" value="./">
+                                                <param name="movie" value="text12.swf">
+                                                <param name="quality" value="high">
+                                                <param name="BGCOLOR" value="">
+                                                <param name="SCALE" value="exactfit">
+                                                <embed src="Welcome%20to%20HOLLYWOOD%20JOE_files/text12.swf" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="exactfit" width="87" height="19" bgcolor="" base="./" align="middle">
+
+                                            </object>
+                                        </td>
+                                        <td valign="bottom">
+                                            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="112" height="20" align="texttop">
+                                                <param name="movie" value="text14.swf">
+                                                <param name="quality" value="high">
+                                                <param name="BASE" value="./">
+                                                <param name="BGCOLOR" value="">
+                                                <param name="SCALE" value="exactfit">
+                                                <embed src="Welcome%20to%20HOLLYWOOD%20JOE_files/text14.swf" base="./" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="exactfit" width="112" height="20" bgcolor="" align="texttop">
+
+                                            </object>
+                                        </td>
+                                        <td>
+                                            <a href="https://hollywoodjoe.com/swinginwithhollywoodjoe.htm">
+                                                <strong>
+                                                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="85" height="16" align="middle">
+                                                        <param name="movie" value="text13.swf">
+                                                        <param name="quality" value="high">
+                                                        <param name="BASE" value="./">
+                                                        <param name="BGCOLOR" value="">
+                                                        <param name="SCALE" value="exactfit">
+                                                        <embed src="Welcome%20to%20HOLLYWOOD%20JOE_files/text13.swf" base="./" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="exactfit" width="85" height="16" bgcolor="" align="middle">
+
+                                                    </object>
+                                                </strong>
+                                            </a>
+                                            <a href="mailto:hollywoodjoe@usa.com"></a>
+                                        </td>
+                                        <td valign="bottom">
+                                            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="62" height="18">
+                                                <param name="movie" value="text21.swf">
+                                                <param name="quality" value="high">
+                                                <param name="BGCOLOR" value="">
+                                                <param name="SCALE" value="exactfit">
+                                                <embed src="Welcome%20to%20HOLLYWOOD%20JOE_files/text21.swf" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="exactfit" width="62" height="18" bgcolor="">
+
+                                            </object>
+                                        </td>
+                                        <td>
+                                            <a href="mailto:hollywoodjoe@usa.com">
+                                                <strong>
+                                                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="104" height="17" align="middle">
+                                                        <param name="movie" value="text16.swf">
+                                                        <param name="quality" value="high">
+                                                        <param name="BGCOLOR" value="">
+                                                        <param name="SCALE" value="exactfit">
+                                                        <embed src="Welcome%20to%20HOLLYWOOD%20JOE_files/text16.swf" base="" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="exactfit" width="104" height="17" bgcolor="" align="middle">
+
+                                                    </object>
+                                                </strong>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </font>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <font face="Verdana, Arial, Helvetica">
+        <p align="center">
+            &nbsp; 
+            <a href="https://hollywoodjoe.com/April_2006/index.htm">
+                <br>
+                <img border="0" id="img1" src="Welcome%20to%20HOLLYWOOD%20JOE_files/button21.jpg" height="47" width="235" alt="We've  added new Pictures 4-11-2006" fp-style="fp-btn: Border Bottom 8; fp-font: Arial; fp-bgcolor: #84B9E7" fp-title="We've  added new Pictures 4-11-2006" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'images/button22.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'images/button21.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'images/button23.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'images/button22.jpg')">
+            </a>
+        </p>
+        <table align="left">
+            <tbody>
+                <tr>
+                    <td align="middle">
+                        <p>
+                            <a href="https://hollywoodjoe.com/TRIALCOL.JPG">
+                                <img border="0" src="Welcome%20to%20HOLLYWOOD%20JOE_files/sm_28772.jpg" width="200" height="200">
+                            </a>
+                            <br>
+                            <br>
+                            <a href="https://hollywoodjoe.com/swinginwithhollywoodjoe.htm">
+                                <img border="0" src="Welcome%20to%20HOLLYWOOD%20JOE_files/sm-28773.jpg" width="200" height="200">
+                            </a>
+                            <br>
+                            <br>
+                            <a href="https://hollywoodjoe.com/swinginwithhollywoodjoe.htm">
+                                <img border="0" src="Welcome%20to%20HOLLYWOOD%20JOE_files/sm-28774.jpg" width="200" height="200">
+                            </a>
+                            <br>
+                            <br>
+                            <a href="https://hollywoodjoe.com/swinginwithhollywoodjoe.htm">
+                                <img border="0" src="Welcome%20to%20HOLLYWOOD%20JOE_files/sm-28775.jpg" alt="Rock &amp; Roll Party" width="200" height="200">
+                            </a>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <font color="#000000" face="Verdana, Arial, Helvetica" size="-1">
+            The sound of Hollywood 
+              Joe is timeless and entertaining, and is full of good old Rock n' Roll as well 
+              as inspiring musicianship. He has lived in Memphis, St. Louis, as well as of 
+              course...Hollywood, California. And in his travels has picked up many, many 
+              influences. At present we don't know of his whereabouts, but was recently heard 
+              and seen playing in various groups and combos in the Rockabilly/Swing, Blues, 
+              and Jazz traditions. Anyone interested in hearing his sound, or purchasing the 
+              many of his CDs, can log on to: 
+            <a href="http://www.mp3.com/hollywoodjoe">
+                <font color="#FF0000">mp3.com</font>
+            </a>
+            <font color="#000033">
+                , 
+                  
+                <a href="http://www.cdbaby.com/cd/hollywoodjoe">
+                    <font color="#FF0000">CD Baby</font>
+                </a>
+                , 
+                  
+                <a href="http://www.musicbuilder.com/Hollywood_Joe/default.asp#">
+                    <font color="#FF0000">musicbuilder.com</font>
+                </a>
+            </font>
+             
+              and many other music internet sites.
+            <br>
+            <br>
+            <img src="Welcome%20to%20HOLLYWOOD%20JOE_files/clickon.gif" width="240" height="80">
+        </font>
+        <p align="center">
+            <font color="#000000" face="Verdana, Arial, Helvetica" size="4">
+                <a href="https://hollywoodjoe.com/links.htm">
+                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="293" height="33">
+                        <param name="movie" value="text8.swf">
+                        <param name="quality" value="high">
+                        <param name="BASE" value="./">
+                        <param name="BGCOLOR" value="#99CCFF">
+                        <param name="SCALE" value="exactfit">
+                        <embed src="Welcome%20to%20HOLLYWOOD%20JOE_files/text8.swf" base="./" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="exactfit" width="293" height="33" bgcolor="#99CCFF">
+
+                    </object>
+                </a>
+            </font>
+        </p>
+        <p align="center">
+            <font color="#000000" face="Verdana, Arial, Helvetica" size="4">
+                <a href="https://hollywoodjoe.com/links.htm">
+                    <br>
+                </a>
+            </font>
+            <font face="Verdana, Arial, Helvetica">
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="409" height="33">
+                    <param name="movie" value="text7.swf">
+                    <param name="quality" value="high">
+                    <param name="BASE" value="./">
+                    <param name="BGCOLOR" value="#99CCFF">
+                    <param name="SCALE" value="exactfit">
+                    <embed src="Welcome%20to%20HOLLYWOOD%20JOE_files/text7.swf" base="./" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="exactfit" width="409" height="33" bgcolor="#99CCFF">
+
+                </object>
+            </font>
+        </p>
+        <p align="center">
+            <font face="Verdana, Arial, Helvetica">
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="156" height="33">
+                    <param name="movie" value="text6.swf">
+                    <param name="quality" value="high">
+                    <param name="BASE" value="./">
+                    <param name="BGCOLOR" value="#99CCFF">
+                    <param name="SCALE" value="exactfit">
+                    <embed src="Welcome%20to%20HOLLYWOOD%20JOE_files/text6.swf" base="./" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="exactfit" width="156" height="33" bgcolor="#99CCFF">
+
+                </object>
+            </font>
+        </p>
+        <p align="center">
+            <font face="Verdana, Arial, Helvetica">
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="159" height="29">
+                    <param name="movie" value="text9.swf">
+                    <param name="quality" value="high">
+                    <param name="BASE" value="./">
+                    <param name="BGCOLOR" value="#99CCFF">
+                    <param name="SCALE" value="exactfit">
+                    <embed src="Welcome%20to%20HOLLYWOOD%20JOE_files/text9.swf" base="./" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="exactfit" width="159" height="29" bgcolor="#99CCFF">
+
+                </object>
+            </font>
+            <font face="Verdana, Arial, Helvetica"></font>
+        </p>
+        <div align="center">
+            <font face="Verdana, Arial, Helvetica">
+                <p>
+                    <b>
+                        <font color="#330099">
+                            Photo Pages 
+                            <a href="https://hollywoodjoe.com/manyfaces.htm">1</a>
+                            <a href="https://hollywoodjoe.com/manyfaces2.htm">2</a>
+                            <a href="https://hollywoodjoe.com/PhotoGallery.htm">3</a>
+                            <a href="https://hollywoodjoe.com/photos2.htm">4</a>
+                            <a href="https://hollywoodjoe.com/photos3.htm">5</a>
+                        </font>
+                    </b>
+                    <a href="https://hollywoodjoe.com/Hollywood%20Joe%20and%20Friends.htm">
+                        <font color="#0000FF">
+                            <b>6</b>
+                        </font>
+                    </a>
+                    <a href="https://hollywoodjoe.com/photos4.htm">7</a>
+                    <a href="https://hollywoodjoe.com/photos8.htm">8</a>
+                </p>
+                <p align="center">
+                    <b>
+                        <font color="#000080" size="2" face="Verdana, Arial, Helvetica, sans-serif">
+                            <a href="https://hollywoodjoe.com/SaintLouissongawards.htm">Saint 
+                                Louis/Blueberry Hill song awards and </a>
+                        </font>
+                    </b>
+                </p>
+                <p align="center">
+                    <a href="https://hollywoodjoe.com/SaintLouissongawards.htm">
+                        <font size="2">
+                            <b>
+                                <font face="Verdana, Arial, Helvetica, sans-serif" color="#000080">Billboard/Kentucky 
+                                    Fried Chicken song award</font>
+                            </b>
+                        </font>
+                    </a>
+                </p>
+                <p align="center">
+                    <a href="https://hollywoodjoe.com/SaintLouissongawards.htm">
+                        <font size="2">
+                            <b>
+                                <font face="Verdana, Arial, Helvetica, sans-serif" color="#000080">Some 
+                                    1997 East coast shows</font>
+                            </b>
+                        </font>
+                    </a>
+                </p>
+            </font>
+        </div>
+        <font face="Verdana, Arial, Helvetica"></font>
+        <p align="center">
+            <font face="Verdana, Arial, Helvetica">
+                <a href="mailto:HollywoodJoe@mail.com">
+                    <b>
+                        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="450" height="28">
+                            <param name="movie" value="text10.swf">
+                            <param name="quality" value="high">
+                            <param name="BGCOLOR" value="#99CCFF">
+                            <param name="SCALE" value="exactfit">
+                            <embed src="Welcome%20to%20HOLLYWOOD%20JOE_files/text10.swf" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="exactfit" width="450" height="28" bgcolor="#99CCFF">
+
+                        </object>
+                    </b>
+                </a>
+            </font>
+        </p>
+        <p align="center">
+            <font face="Verdana, Arial, Helvetica">
+                <a href="https://hollywoodjoe.com/manyfacesposter.htm">
+                    <b>
+                        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="490" height="29">
+                            <param name="movie" value="text17.swf">
+                            <param name="quality" value="high">
+                            <param name="BASE" value="./">
+                            <param name="BGCOLOR" value="#99CCFF">
+                            <param name="SCALE" value="exactfit">
+                            <embed src="Welcome%20to%20HOLLYWOOD%20JOE_files/text17.swf" base="./" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="exactfit" width="490" height="29" bgcolor="#99CCFF">
+
+                        </object>
+                        <br>
+                        <br>
+                        <br>
+                    </b>
+                </a>
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="459" height="73">
+                    <param name="movie" value="text18.swf">
+                    <param name="quality" value="high">
+                    <param name="BASE" value="./">
+                    <param name="BGCOLOR" value="#99CCFF">
+                    <param name="SCALE" value="exactfit">
+                    <embed src="Welcome%20to%20HOLLYWOOD%20JOE_files/text18.swf" base="./" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" scale="exactfit" width="459" height="73" bgcolor="#99CCFF">
+
+                </object>
+                <!-- CDBABY LINK for HOLLYWOOD JOE: Jack of Hearts -->
+            </font>
+        </p>
+        <p align="center">
+            <font size="2">
+                <a href="http://www.web-a-dex.com/translate.htm">
+                    <font color="#003366">Translate 
+                      this website click here</font>
+                </a>
+                <font color="#003366">.</font>
+            </font>
+        </p>
+        <div align="center">
+            <p align="center">
+                <a href="http://www.cdbaby.com/cd/hollywoodjoe">
+                    <!-- CDBABY LINK for HOLLYWOOD JOE: Jack of Hearts -->
+                    <img src="Welcome%20to%20HOLLYWOOD%20JOE_files/cdbaby_stripetop_200_yellow.gif" width="82" height="24" alt="Buy the CD" border="0">
+                    <br>
+                    <img src="Welcome%20to%20HOLLYWOOD%20JOE_files/hollywoodjoe.jpg" border="0" height="75" width="82" alt="HOLLYWOOD JOE: Jack of Hearts">
+                </a>
+            </p>
+            <p align="center">
+                <a href="http://www.cdbaby.com/cd/hollywoodjoe">
+                    <img src="Welcome%20to%20HOLLYWOOD%20JOE_files/HJ%20stamps.jpg" width="277" height="444">
+                    <br>
+                </a>
+            </p>
+            <p align="left">
+                <br>
+                <a href="http://www.webwonder.net/">
+                    <img src="Welcome%20to%20HOLLYWOOD%20JOE_files/site-design.jpg" width="110" height="75" border="0">
+                </a>
+                <br>
+            </p>
+        </div>
+        <div align="center"></div>
+        <p>&nbsp;</p>
+
+    </font>
+</body>
+</html><br>
 </font><font color="#000000" face="Arial,Helvetica" size="4"><a href="links.htm">Joe's
 favorite links<br>
 </a></font><p align="center"><font color="#000000" face="Arial,Helvetica" size="4"><a href="NEWPIC.JPG">The
