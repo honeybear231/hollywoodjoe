@@ -7,82 +7,82 @@
     <meta name="description" content="Our main page can be found at http://www.rockabilly.nl - BlackCat Rockabilly Europe, The Most in Rock and Roll, Rockabilly and Surf, Huge Lyrics Collection, Hall Of Fame, Many Biographies and Reviews">
     <meta name="keywords" content="rockabilly, blackcat, rock and roll, surf, 45 rpm, 78 rpm, ami, bebop, black cat, blackcat, bopping, capitol, cats, chatroom, chatnoir, coral, country-rock, crepes, dance, decca, doghouse, doo-wop, drapes, edwardian, elvis presley, fifties, garage, gatonegro, hall of fame, handjive, infolist, instrumental, buick,cadillac,chevy,olds,pontiac,car,drag,vampire,string,cds,mp3s,downloads,mp3.com,cd,mp3,sound,reel,riff,feel,tape,record,stomp,ballads,song,hillbilly,amp,amplifier,vox,fender,gibson,guild,goya,ampeg,gretsch,rickenbacker,favilla,favino,maccaferri,hagstrom,mosrite,acoustic,speaker,dial,knob,magnet,tune,composition,nania,joe,hollywood,boulevard,liverpool.tupelo,mississippi,new,york,england,noun,action,move,tal,farlow,jazz,swing,groove,track,cool,strum,icon,idol,dexterity,pick,pickguard,peghead,studio,monitor,meta,tag,django,reinhardt,barney,kessel,buddy,holly,gene,vincent,chuck,berry,graceland,south,dixie,mason,dixon,burger,bun,drive-in,movie,tour,mid-west,progression,chord,lead,solo,drum,beat,drumstick,rim,rimshot,band,orchestra,tennessee,kentucky,louisiana,texas,florida,arkansas,ohio,texas,wyoming,arizona,california,washington,oregon,idaho,maryland,f-hole,houston,lubbock,tulsa,nashville,clifton,passaic,patterson,nyack,nanuet,wisconsin,michigan,pennsylvania,vermont,maine,virginia,mom,dad,sister,brother,blues,country,city,billboard,cashbox,topten,stadium,shea,yankee,arpeggio,scale,triad,triplet,staff,mode,locrian,phyrigian,aolean, irc-room, jitterbug, jukebox, kittens, liberty, lyrics, lyrix, mailinglist, memorabilia, memphis, mirc, movies, mp3, neo-rockabilly, newsletter, oldies, psychobilly, rebel, record labels, reviews, rock-a-billy, rock-ola, rockabillies, rockers, rocking, seeburg, shake, single, sixties, sun records, surfing, surfrock, teddy boys, teds, teenage idols, twist, video, vinyl, webrings, western swing, wurlitzer">
     <meta name="robots" content="index, follow">
-    <meta name="revisit-after" content="1 month"> 
-    <script language="JavaScript"></head><br><br>
-        <center><img src="HOLLYWOODJOELOGO.jpg><br><br>
-    //
-    function FP_preloadImgs() {
-        //v1.0
-        var d = document,
-            a = arguments;
-        if (!d.FP_imgs)
-            d.FP_imgs = new Array();
-        for (var i = 0; i < a.length; i++) {
-            d.FP_imgs[i] = new Image;
-            d.FP_imgs[i].src = a[i];
-        }
-    }
-
-    function FP_swapImg() {
-        //v1.0
-        var doc = document,
-            args = arguments,
-            elm,
-            n;
-        doc.$imgSwaps = new Array();
-        for (n = 2; n < args.length;
-        n += 2) {
-            elm = FP_getObjectByID(args[n]);
-            if (elm) {
-                doc.$imgSwaps[doc.$imgSwaps.length] = elm;
-                elm.$src = elm.src;
-                elm.src = args[n + 1];
+    <meta name="revisit-after" content="1 month">
+    <script language="JavaScript"></head><br><br><body background="clouds.gif"></body>
+            <center><img src="HOLLYWOODJOELOGO.jpg><br><br>
+        //
+        function FP_preloadImgs() {
+            //v1.0
+            var d = document,
+                a = arguments;
+            if (!d.FP_imgs)
+                d.FP_imgs = new Array();
+            for (var i = 0; i < a.length; i++) {
+                d.FP_imgs[i] = new Image;
+                d.FP_imgs[i].src = a[i];
             }
         }
-    }
 
-    function FP_getObjectByID(id, o) {
-        //v1.0
-        var c,
-            el,
-            els,
-            f,
-            m,
-            n;
-        if (!o)
-            o = document;
-        if (o.getElementById)
-            el = o.getElementById(id);
-        else if (o.layers)
-            c = o.layers;
-        else if (o.all)
-            el = o.all[id];
-        if (el)
-            return el;
-        if (o.id == id || o.name == id)
-            return o;
-        if (o.childNodes)
-            c = o.childNodes;
-        if (c)
-            for (n = 0; n < c.length; n++) {
-                el = FP_getObjectByID(id, c[n]);
-                if (el)
-                    return el;
+        function FP_swapImg() {
+            //v1.0
+            var doc = document,
+                args = arguments,
+                elm,
+                n;
+            doc.$imgSwaps = new Array();
+            for (n = 2; n < args.length;
+            n += 2) {
+                elm = FP_getObjectByID(args[n]);
+                if (elm) {
+                    doc.$imgSwaps[doc.$imgSwaps.length] = elm;
+                    elm.$src = elm.src;
+                    elm.src = args[n + 1];
+                }
             }
-        f = o.forms;
-        if (f)
-            for (n = 0; n < f.length; n++) {
-                els = f[n].elements;
-                for (m = 0; m < els.length; m++) {
-                    el = FP_getObjectByID(id, els[n]);
+        }
+
+        function FP_getObjectByID(id, o) {
+            //v1.0
+            var c,
+                el,
+                els,
+                f,
+                m,
+                n;
+            if (!o)
+                o = document;
+            if (o.getElementById)
+                el = o.getElementById(id);
+            else if (o.layers)
+                c = o.layers;
+            else if (o.all)
+                el = o.all[id];
+            if (el)
+                return el;
+            if (o.id == id || o.name == id)
+                return o;
+            if (o.childNodes)
+                c = o.childNodes;
+            if (c)
+                for (n = 0; n < c.length; n++) {
+                    el = FP_getObjectByID(id, c[n]);
                     if (el)
                         return el;
                 }
-            }
-        return null;
-    }
-    // -->
-    </script>
+            f = o.forms;
+            if (f)
+                for (n = 0; n < f.length; n++) {
+                    els = f[n].elements;
+                    for (m = 0; m < els.length; m++) {
+                        el = FP_getObjectByID(id, els[n]);
+                        if (el)
+                            return el;
+                    }
+                }
+            return null;
+        }
+        // -->
+        </script>
 </head>
 
 <body background="Welcome%20to%20HOLLYWOOD%20JOE_files/clouds.gif" bgcolor="#FFFFFF" text="#000000" link="#0033CC" vlink="#6699FF" alink="#00CC33">
@@ -195,7 +195,9 @@
 
     <font face="Verdana, Arial, Helvetica">
         <p align="center">
-            &nbsp; 
+
+                        &nbsp; 
+                        
             <a href="https://hollywoodjoe.com/April_2006/index.htm">
                 <br>
                 <img border="0" id="img1" src="Welcome%20to%20HOLLYWOOD%20JOE_files/button21.jpg" height="47" width="235" alt="We've  added new Pictures 4-11-2006" fp-style="fp-btn: Border Bottom 8; fp-font: Arial; fp-bgcolor: #84B9E7" fp-title="We've  added new Pictures 4-11-2006" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'images/button22.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'images/button21.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'images/button23.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'images/button22.jpg')">
@@ -230,31 +232,39 @@
             </tbody>
         </table>
         <font color="#000000" face="Verdana, Arial, Helvetica" size="-1">
-            The sound of Hollywood 
-              Joe is timeless and entertaining, and is full of good old Rock n' Roll as well 
-              as inspiring musicianship. He has lived in Memphis, St. Louis, as well as of 
-              course...Hollywood, California. And in his travels has picked up many, many 
-              influences. At present we don't know of his whereabouts, but was recently heard 
-              and seen playing in various groups and combos in the Rockabilly/Swing, Blues, 
-              and Jazz traditions. Anyone interested in hearing his sound, or purchasing the 
-              many of his CDs, can log on to: 
+
+                        The sound of Hollywood 
+                          Joe is timeless and entertaining, and is full of good old Rock n' Roll as well 
+                          as inspiring musicianship. He has lived in Memphis, St. Louis, as well as of 
+                          course...Hollywood, California. And in his travels has picked up many, many 
+                          influences. At present we don't know of his whereabouts, but was recently heard 
+                          and seen playing in various groups and combos in the Rockabilly/Swing, Blues, 
+                          and Jazz traditions. Anyone interested in hearing his sound, or purchasing the 
+                          many of his CDs, can log on to: 
+                        
             <a href="http://www.mp3.com/hollywoodjoe">
                 <font color="#FF0000">mp3.com</font>
             </a>
             <font color="#000033">
-                , 
-                  
+
+                                , 
+                                  
+                                
                 <a href="http://www.cdbaby.com/cd/hollywoodjoe">
                     <font color="#FF0000">CD Baby</font>
                 </a>
-                , 
-                  
+
+                                , 
+                                  
+                                
                 <a href="http://www.musicbuilder.com/Hollywood_Joe/default.asp#">
                     <font color="#FF0000">musicbuilder.com</font>
                 </a>
             </font>
-             
-              and many other music internet sites.
+
+                         
+                          and many other music internet sites.
+                        
             <br>
             <br>
             <img src="Welcome%20to%20HOLLYWOOD%20JOE_files/clickon.gif" width="240" height="80">
@@ -324,7 +334,9 @@
                 <p>
                     <b>
                         <font color="#330099">
-                            Photo Pages 
+
+                                                        Photo Pages 
+                                                        
                             <a href="https://hollywoodjoe.com/manyfaces.htm">1</a>
                             <a href="https://hollywoodjoe.com/manyfaces2.htm">2</a>
                             <a href="https://hollywoodjoe.com/PhotoGallery.htm">3</a>
@@ -344,7 +356,7 @@
                     <b>
                         <font color="#000080" size="2" face="Verdana, Arial, Helvetica, sans-serif">
                             <a href="https://hollywoodjoe.com/SaintLouissongawards.htm">Saint 
-                                Louis/Blueberry Hill song awards and </a>
+                                                            Louis/Blueberry Hill song awards and </a>
                         </font>
                     </b>
                 </p>
@@ -353,7 +365,7 @@
                         <font size="2">
                             <b>
                                 <font face="Verdana, Arial, Helvetica, sans-serif" color="#000080">Billboard/Kentucky 
-                                    Fried Chicken song award</font>
+                                                                    Fried Chicken song award</font>
                             </b>
                         </font>
                     </a>
@@ -363,7 +375,7 @@
                         <font size="2">
                             <b>
                                 <font face="Verdana, Arial, Helvetica, sans-serif" color="#000080">Some 
-                                    1997 East coast shows</font>
+                                                                    1997 East coast shows</font>
                             </b>
                         </font>
                     </a>
@@ -421,7 +433,7 @@
             <font size="2">
                 <a href="http://www.web-a-dex.com/translate.htm">
                     <font color="#003366">Translate 
-                      this website click here</font>
+                                          this website click here</font>
                 </a>
                 <font color="#003366">.</font>
             </font>
@@ -454,35 +466,81 @@
 
     </font>
 </body>
-</html><br>
-</font><font color="#000000" face="Arial,Helvetica" size="4"><a href="links.htm">Joe's
-favorite links<br>
-</a></font><p align="center"><font color="#000000" face="Arial,Helvetica" size="4"><a href="NEWPIC.JPG">The
-Voice of Hollywood Joe</a></font><p align="center"><font color="#000000" face="Arial,Helvetica" size="4"><a href="links.htm"><br>
-</a><a href="PhotoGallery.htm">
-Photo Gallery</a></font>
-<p align="center"><br>
-<b>
-<a href="mailto:hollywoodjoe@usa.com">Email Hollywood Joe!<br>
-</a>
-</b></p>
-<p align="center"><b><img border="0" src="email.gif" width="91" height="117">
-</b></p>
-<p align="center"><a href="manyfaces.htm"><b>
+</html>
 <br>
-The Many FACES, The Many PLACES, The Many TRACES of Hollywood Joe
-</b></a></p>
+</font>
+<font color="#000000" face="Arial,Helvetica" size="4">
+    <a href="links.htm">
+        Joe's
+        favorite links
+        <br>
+    </a>
+</font>
 <p align="center">
-<a href="mailto:HollywoodJoe@mail.com"><b>
+    <font color="#000000" face="Arial,Helvetica" size="4">
+        <a href="NEWPIC.JPG">The
+        Voice of Hollywood Joe</a>
+    </font>
+<p align="center">
+    <font color="#000000" face="Arial,Helvetica" size="4">
+        <a href="links.htm">
+            <br>
+        </a>
+        <a href="PhotoGallery.htm">
+        Photo Gallery</a>
+    </font>
+<p align="center">
+    <br>
+    <b>
+        <a href="mailto:hollywoodjoe@usa.com">
+            Email Hollywood Joe!
+            <br>
+        </a>
+    </b>
+</p>
+<p align="center">
+    <b>
+        <img border="0" src="email.gif" width="91" height="117">
+    </b>
+</p>
+<p align="center">
+    <a href="manyfaces.htm">
+        <b>
+            <br>
+
+            The Many FACES, The Many PLACES, The Many TRACES of Hollywood Joe
+        </b>
+    </a>
+</p>
+<p align="center">
+    <a href="mailto:HollywoodJoe@mail.com">
+        <b>
+            <br>
+        </b>
+    </a>
+    <b>
+        <font size="1">
+            <font color="#0000FF">This site was designed by</font>
+            <br>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="mailto:rsmnet@ix.netcom.com">RSM Netvertising</a>
+        </font>
+    </b>
+</p>
+<p align="center">
+    <!--webbot bot="HitCounter" u-custom
+    i-digits="0" i-image="4" PREVIEW="&lt;strong&gt;[Hit Counter]&lt;/strong&gt;"
+    i-resetvalue="0" startspan -->
+    <img src="../_vti_bin/fpcount.exe/D:/My%20Documents/My%20Webs/?Page=HollywoodJoe/index.htm|Image=4" alt="Hit Counter">
+    <!--webbot bot="HitCounter" endspan i-checksum="7162" -->
+</p>
 <br>
-</b></a><b><font size="1"><font color="#0000FF">This site was designed by</font><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="mailto:rsmnet@ix.netcom.com">RSM Netvertising</a></font></b></p>
-<p align="center"><!--webbot bot="HitCounter" u-custom
-i-digits="0" i-image="4" PREVIEW="&lt;strong&gt;[Hit Counter]&lt;/strong&gt;"
-i-resetvalue="0" startspan --><img src="../_vti_bin/fpcount.exe/D:/My%20Documents/My%20Webs/?Page=HollywoodJoe/index.htm|Image=4" alt="Hit Counter"><!--webbot bot="HitCounter" endspan i-checksum="7162" -->
-</p><br><br><img src="HOLLYWOODJOE.jpg"><br>
+<br>
+<img src="HOLLYWOODJOE.jpg">
+<br>
 <p align="center">&nbsp;</p>
-<!--mstheme--></font></body>
+</font>
+</body>
 
 </html>
