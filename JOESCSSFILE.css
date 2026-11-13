@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.red-text {
+	color: red;
+	font-weight: bold;
+}
+
+
+.blue-text {
+	color: blue;
+	font-size: 30px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font style: italic;
+	font-weight: bold;
+	
+	
+ .pink-text {
+	color: pink-text;
+	font-size: 7px
+	font-family: Arial;
+	font-style: italic;
+	}
+	
+	
