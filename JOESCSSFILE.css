@@ -12,6 +12,7 @@
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 	font style: italic;
 	font-weight: bold;
+    }
 	
 	
  .pink-text {
@@ -21,4 +22,11 @@
 	font-style: italic;
 	}
 	
+	
+	.green-text {
+	color: green;
+	font-size: 21px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-style: italic;
+	}
 	
