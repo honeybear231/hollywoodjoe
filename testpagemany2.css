@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.nav-cell {
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	padding: 5px;
+}
+
+/* Unvisited link state (Blue) */
+.nav-cell a:link {
+  color: #0000EE;
+  font-family: Ariel, Helvetica, san-serif;
+  font-weight; bold;
+  text-decoration: none;
+}
+
+/* Visited link state (Purple) */
+.nav-cell a:visited {s
+  color: #551A8B	
