@@ -11,7 +11,7 @@
 /* Unvisited link state (Blue) */
 .nav-cell a:link {
   color: #0000EE;
-  font-family: Ariel, Helvetica, san-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
   font-weight; bold;
   text-decoration: none;
 }
